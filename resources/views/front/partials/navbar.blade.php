@@ -2,30 +2,20 @@
 <nav class="mainmenu_wrapper">
     <ul class="mainmenu nav sf-menu">
         <li class="active">
-            <a href="#box_wrapper">Home</a>
-            <ul>
-                <li>
-                    <a href="index.html">MultiPage</a>
-                </li>
-                <li>
-                    <a href="index_singlepage.html">Single Page</a>
-                </li>
-                <li>
-                    <a href="admin_index.html">Admin Dashboard</a>
-                </li>
-            </ul>
+            <a href="#box_wrapper">Acceuil</a>
+
         </li>
 
         <li>
-            <a href="#about">About</a>
+            <a href="#about">Nos engagements</a>
         </li>
 
         <li>
-            <a href="#features">Features</a>
+            <a href="#features">Chiffres clés</a>
         </li>
 
         <li>
-            <a href="#services">Services</a>
+            <a href="#services">Comment ça marche ?</a>
         </li>
 
         <li>

@@ -84,7 +84,7 @@
 								<div class="slide_description">
 									<div class="intro-layer to_animate" data-animation="fadeInUp">
 										<p class="big grey">
-											Une épave qui encombre ?
+											Une épave qui vous encombre ?
 											<br>
 											<strong class="highlight">Laissez-nous vous libérer de l'espace !</strong>
 										</p>
