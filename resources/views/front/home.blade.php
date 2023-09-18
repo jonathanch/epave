@@ -13,14 +13,14 @@
                     </div>
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
-                            <div class="teaser_icon main_bg_color with_shadow round size_small">
+                            <div clas+s="teaser_icon main_bg_color with_shadow round size_small">
                                 <i class="towyicon-clock"></i>
                             </div>
                         </div>
                         <div class="media-body media-middle">
                             <h3 class="text-uppercase grey margin_0">
-                                less than
-                                <strong>30 min</strong> arrival
+                                Moins de
+                                <strong>30 min</strong> à arriver
                             </h3>
                         </div>
                     </div>
@@ -30,8 +30,8 @@
                 <div class="with_padding_small">
                     <div class="teaser">
                         <h3 class="text-uppercase highlight big margin_0">
-                            0 (800)
-                            <strong>490 45 45</strong>
+                            07
+                            <strong>77 45 93 89</strong>
                         </h3>
                     </div>
                 </div>
@@ -49,7 +49,7 @@
                         </div>
                         <div class="media-body media-middle">
                             <h3 class="text-uppercase grey margin_0">
-                                <strong>Live 24/7</strong> Towing Service
+                                <strong>24h/24 7j/7</strong> Epave-Direct
                             </h3>
                         </div>
                     </div>
@@ -66,30 +66,30 @@
                 <img src="{{ asset('font-assets/images/truck.png') }}" alt="" />
             </div>
             <div class="col-lg-5 col-md-6">
-                <h2 class="section_header numbered-header">what
-                    <strong>we offer</strong>
+                <h2 class="section_header numbered-header">Nos
+                    <strong>engagements</strong>
                 </h2>
-                <p class="small-text">effective flatbed transportation</p>
+                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France</p>
                 <hr class="divider_30_3 zebra_bg">
                 <p>
-                    We provide fast, courteous and inexpensive towing services in New York. We are fully insured and been in business since 1986. We are ready to respond to all your vehicle emergency needs 24 hours a day, seven days a week.
+                    Direct Epave comprend l'urgence de votre situation et nous nous efforçons à rendre un service efficace, professionnel et respectueux de l'environnement, le tout sans frais pour le client.
                 </p>
                 <div class="inline-block topmargin_10">
                     <ul class="list1 checklist grey">
-                        <li>More than
-                            <strong>30 years of experience</strong>
+                        <li>Intervention
+                            <strong>rapide</strong> en moins de 30 minutes chrono.
                         </li>
-                        <li>Short arrival time of
-                            <strong>30 minutes or less</strong>
+                        <li>Intervention
+                            <strong>d'un expert</strong> pour traiter votre épave en toute sécurité.
                         </li>
-                        <li>Honest competitive prices -
-                            <strong>zero hidden fees</strong>
+                        <li>Intervention respectant
+                            <strong>l'environnement</strong>
                         </li>
-                        <li>Friendly and
-                            <strong>professional</strong> service</li>
-                        <li>Available
-                            <strong>24 hours</strong> a day,
-                            <strong>7 days</strong> a week</li>
+                        <li>Intervention
+                            <strong>GRATUITE</strong> sans frais caché</li>
+                        <li>Une équipe disponible
+                            <strong>24h/24</strong>,
+                            <strong>7j/7</strong></li>
                     </ul>
                 </div>
             </div>
@@ -104,8 +104,8 @@
                 <div class="teaser_icon highlight size_big">
                     <i class="towyicon-star"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="30" data-speed="2100">0</h3>
-                <p class="lightfont">Years of Experience</p>
+                <h3 class="counter grey" data-from="0" data-to="10" data-speed="2100">0</h3>
+                <p class="lightfont">Années d'expèrience</p>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -113,8 +113,8 @@
                 <div class="teaser_icon highlight size_big">
                     <i class="towyicon-buildings"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="74" data-speed="2100">0</h3>
-                <p class="lightfont">Offices Worldwide</p>
+                <h3 class="counter grey" data-from="0" data-to="74" data-speed="2100">5</h3>
+                <p class="lightfont">Partenaires</p>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -122,8 +122,8 @@
                 <div class="teaser_icon highlight size_big">
                     <i class="towyicon-truck"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="3720" data-speed="2100">0</h3>
-                <p class="lightfont">Vehicles Towed</p>
+                <h3 class="counter grey" data-from="0" data-to="3000" data-speed="2100">0</h3>
+                <p class="lightfont">Interventions</p>
             </div>
         </div>
         <div class="col-md-3 col-sm-6">
@@ -131,8 +131,8 @@
                 <div class="teaser_icon highlight size_big">
                     <i class="towyicon-group"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="874" data-speed="2100">0</h3>
-                <p class="lightfont">Workers in Team</p>
+                <h3 class="counter grey" data-from="0" data-to="15" data-speed="2100">0</h3>
+                <p class="lightfont">Collaborateurs</p>
             </div>
         </div>
     </div>
@@ -142,10 +142,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section_header numbered-header">Our
-                    <strong>Services</strong>
+                <h2 class="section_header numbered-header">Comment
+                    <strong>ça marche ?</strong>
                 </h2>
-                <p class="small-text">Emergency Roadside Assistance</p>
+                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France</p>
                 <hr class="divider_30_3 zebra_bg">
             </div>
         </div>
@@ -155,9 +155,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/towing.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Car Towing</a>
+                            <a href="service-single.html">Vous nous contactez</a>
                         </h4>
-                        <p>Duis laboris ball tip jowl sed. Drumstick leberkas tenderloin swine laborum cupim bacon ipsum jowl meatball t-bone.</p>
+                        <p>Vous nous appeler au 07 77 45 93 89 ou via le formulaire ci-dessous.</p>
 
                     </div>
                 </div>
@@ -167,9 +167,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/hail.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Hail Damage</a>
+                            <a href="service-single.html">La prise en charge</a>
                         </h4>
-                        <p>Strip steak turkey prosciutto exercitation cillum elit. Enim ham velit aute jerky ras. Anim landjaeger andouille.</p>
+                        <p>Nous pouvons intervenir en moins de 30 min ou selon vos disponibilités.</p>
 
                     </div>
                 </div>
@@ -179,9 +179,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/flood.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Flood Insurance Coverage</a>
+                            <a href="service-single.html">Vous complèter un document</a>
                         </h4>
-                        <p>Shankle pastrami jerky spare ribs pancetta hamburger aute occaecat andouille corned beef quis capicola fugiat ea flank.</p>
+                        <p>Permet de pouvoir légalement retirer votre épave.</p>
 
                     </div>
                 </div>
@@ -191,9 +191,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/accident.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Accident Insurance</a>
+                            <a href="service-single.html">Le transport</a>
                         </h4>
-                        <p>T-bone laborum esse tongue, consequat elit short ribs cow cupidatat sed fugiat fatback. Velit dolor frankfurter pork loin.</p>
+                        <p>Vers un centre VHU pour dépollution de la carcasse.</p>
 
                     </div>
                 </div>
@@ -203,9 +203,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/fire.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Fire Insurance</a>
+                            <a href="service-single.html">Le démontage et broyage</a>
                         </h4>
-                        <p>Turkey turducken nulla pork chop shankle biltong ipsum mollit brisket non boudin. Frankfurter porchetta cow aliquip.</p>
+                        <p>La réglementation impose que 3.6% de la masse moyenne soit recyclée.</p>
 
                     </div>
                 </div>
@@ -215,9 +215,9 @@
                     <div class="teaser text-center">
                         <img src="{{ asset('font-assets/images/icons/motocycle.png') }}" alt="" />
                         <h4 class="regular">
-                            <a href="service-single.html">Motorcycle Towing</a>
+                            <a href="service-single.html">Remise d'un certificat de destruction</a>
                         </h4>
-                        <p>Bresaola pork consequat exercitation, voluptate pork loin brisket capicola officia incididunt ground round cupim.</p>
+                        <p>Epave-Direct vous fait parvenir un certification de destruction et transmet une attestation de destruction à la préfecture concernée.</p>
 
                     </div>
                 </div>

@@ -84,15 +84,15 @@
 								<div class="slide_description">
 									<div class="intro-layer to_animate" data-animation="fadeInUp">
 										<p class="big grey">
-											we provide highest quality
+											Une épave qui encombre ?
 											<br>
-											<strong class="highlight">towing services</strong>
+											<strong class="highlight">Laissez-nous vous libérer de l'espace !</strong>
 										</p>
 									</div>
 									<div class="intro-layer to_animate" data-animation="fadeInUp">
 										<p class="lightfont">
-											Fast, courteous and inexpensive towing and
-											<br> roadside assistance in San Diego.
+											Épaviste agrée intervenant GRATUITEMENT et RAPIDEMENT en Ile-De-France
+											<br> à l'emplacement de votre choix.
 										</p>
 									</div>
 								</div>
