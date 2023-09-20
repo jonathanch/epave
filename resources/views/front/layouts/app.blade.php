@@ -76,23 +76,17 @@
 		<div id="box_wrapper">
 
             <section class="intro_section page_mainslider ds">
-				<img src="{{ asset('font-assets/images/slide01.jpg') }}" alt="">
+				<img src="{{ asset('font-assets/images/epave/hm-abt@2x.png') }}" alt="" class="imgSection">
 				<div class="container">
 					<div class="row">
-						<div class="col-sm-12 text-center">
+						<div class="col-sm-12">
 							<div class="slide_description_wrapper">
 								<div class="slide_description">
 									<div class="intro-layer to_animate" data-animation="fadeInUp">
-										<p class="big grey">
+										<p class="big grey" style="color: black !important;">
 											Une épave qui vous encombre ?
 											<br>
-											<strong class="highlight">Laissez-nous vous libérer de l'espace !</strong>
-										</p>
-									</div>
-									<div class="intro-layer to_animate" data-animation="fadeInUp">
-										<p class="lightfont">
-											Épaviste agrée intervenant GRATUITEMENT et RAPIDEMENT en Ile-De-France
-											<br> à l'emplacement de votre choix.
+											<strong class="">Laissez-nous vous libérer de l'espace !</strong>
 										</p>
 									</div>
 								</div>
@@ -105,14 +99,6 @@
 					<!-- eof .row -->
 				</div>
 				<!-- eof .container -->
-				<div class="scroll-icon greylinks">
-					<div class="to_animate" data-animation="floating">
-						<a href="#about" class="to_animate" data-animation="floating">
-							<i class="towyicon-mouse grey"></i>
-							Scroll
-						</a>
-					</div>
-				</div>
 			</section>
 			<!-- template sections -->
 
@@ -125,8 +111,7 @@
 								<a href="./" class="logo">
 									<img src="{{ asset('font-assets/images/logo.png') }}" alt="">
 									<span class="logo_text">
-										<span class="highlight">24/7 TOWY</span>
-										<span>Towing Services</span>
+										<span class="highlight">Epave Direct</span>
 									</span>
 								</a>
 
@@ -151,12 +136,12 @@
 
 
 
-			<section class="ds ms page_copyright section_padding_15">
+			<section class="ds ms page_copyright">
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
 							<p class="lightfont">24/7 Towy - Towing Services
-								<i class="fa fa-heart highlight" aria-hidden="true"></i> All Rights Reserved &copy; 2017</p>
+								<i class="fa fa-heart highlight" aria-hidden="true"></i> All Rights Reserved  2017</p>
 						</div>
 					</div>
 				</div>

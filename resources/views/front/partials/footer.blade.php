@@ -4,19 +4,23 @@
         <div class="row">
 
             <div class="col-md-3 col-sm-6 to_animate" data-animation="fadeInUp">
+            <div class="topmargin_15 columns_margin_0">
+                    <div class="widget widget_pages">
 
-                <a href="./" class="logo">
-                    <img src="images/logo.png" alt="">
-                    <span class="logo_text">
-                        <span class="highlight">24/7 TOWY</span>
-                        <span>Towing Services</span>
-                    </span>
-                </a>
-
-                <p>
-                    Shank duis pancetta kevin ullamco tempor short loin pig lorem officia ut ham hock incididunt irure drumstick sage ball tip tri-tip.
-                </p>
-
+                        <h3 class="widget-title">24/7 TOWY
+                            <strong>Towing Services</strong>
+                        </h3>
+                        <div class="row columns_padding_0 columns_margin_0">
+                            <div class="col-xs-12">
+                                <ul class="greylinks">
+                                    <li class="p-intro">
+                                    Shank duis pancetta kevin ullamco tempor short loin pig lorem officia ut ham hock incididunt irure drumstick sage ball tip tri-tip.
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
                 <p>
                     <a href="#" class="social-icon theme-color-icon soc-twitter"></a>
                     <a href="#" class="social-icon theme-color-icon soc-facebook"></a>
@@ -34,7 +38,6 @@
                         <h3 class="widget-title">Useful
                             <strong>Links</strong>
                         </h3>
-                        <hr class="divider_30_3 zebra_bg divider_left">
                         <div class="row columns_padding_0 columns_margin_0">
                             <div class="col-xs-6">
                                 <ul class="greylinks">
@@ -79,7 +82,6 @@
                     <h3 class="widget-title">Get in
                         <strong>Touch</strong>
                     </h3>
-                    <hr class="divider_30_3 zebra_bg divider_left">
                     <div class="media small-teaser">
                         <div class="media-left">
                             <i class="fa fa-map-marker highlight fontsize_18"></i>
@@ -121,7 +123,6 @@
                         <h3 class="widget-title">Latest
                             <strong>Tweets</strong>
                         </h3>
-                        <hr class="divider_30_3 zebra_bg divider_left">
                         <div class="twitter"></div>
                     </div>
                 </div>
