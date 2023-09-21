@@ -6,9 +6,9 @@
             <div class="col-md-3 col-sm-6 to_animate" data-animation="fadeInUp">
             <div class="topmargin_15 columns_margin_0">
                     <div class="widget widget_pages">
-
-                        <h3 class="widget-title">24/7 TOWY
-                            <strong>Towing Services</strong>
+                        <h3 class="widget-title">
+                            <img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="">
+                            <strong>Epave Direct</strong> <br>  <p>TOWING Services</p>
                         </h3>
                         <div class="row columns_padding_0 columns_margin_0">
                             <div class="col-xs-12">

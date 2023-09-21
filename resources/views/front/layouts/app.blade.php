@@ -109,7 +109,7 @@
 							<div class="logo_wrapper">
 
 								<a href="./" class="logo">
-									<img src="{{ asset('font-assets/images/logo.png') }}" alt="">
+									<img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="">
 									<span class="logo_text">
 										<span class="highlight">Epave Direct</span>
 									</span>

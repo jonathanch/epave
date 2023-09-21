@@ -14496,3 +14496,40 @@ tr.item-editable .media-left img {
 .page_footer .p-intro{
 	font-size: 12px !important;
 }
+.page_footer .logo-box{
+	display: flex;
+	align-items: center;
+}
+.page_footer .widget-title img{
+	width: 20px;
+}
+.page_footer .widget-title p{
+	font-size: 11px !important;
+	font-weight: 400 !important;
+	margin-top: 5px;
+}
+.page_header .logo_wrapper .logo img{
+	width: 40px !important;
+}
+.page_header .logo_wrapper .logo .logo_text .highlight{
+	text-transform: none !important;
+}
+.mainmenu_wrapper .line{
+	width: 80px;
+	height: 10px;
+	background-color: white;
+}
+.mainmenu_wrapper li a{
+ display: flex;
+}
+.mainmenu_wrapper li a p{
+	display: none;
+   }
+@media(max-width:992px){
+	.mainmenu_wrapper li a p{
+		display: block;
+	   }
+	   .mainmenu_wrapper .line{
+		display: none;
+	   }
+}

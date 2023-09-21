@@ -13,8 +13,8 @@
                     </div>
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
-                            <div class="teaser_icon main_bg_color round size_small">
-                                <i class="towyicon-clock"></i>
+                            <div class="teaser_icon main_bg_color round size_small" style="display: flex; justify-content:center; align-items:center !important;">
+                                <img src="{{ asset('font-assets/images/epave/deadline@2x.png') }}" alt="" style="width: 100%;"/>
                             </div>
                         </div>
                         <div class="media-body media-middle">
@@ -43,8 +43,8 @@
                     </div>
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
-                            <div class="teaser_icon main_bg_color with_shadow round size_small">
-                                <i class="towyicon-phone"></i>
+                            <div class="teaser_icon main_bg_color with_shadow round size_small" style="display: flex; justify-content:center; align-items:center !important;">
+                                <img src="{{ asset('font-assets/images/epave/clock_2_e@2x.png') }}" alt="" style="width: 60%;"/>
                             </div>
                         </div>
                         <div class="media-body media-middle">
