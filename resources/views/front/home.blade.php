@@ -157,20 +157,46 @@
 </section>
 
 <div class="mt-5 partenaireContainer">
-    <div class="row">
-        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
-            <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+    <div uk-slider>
+
+        <div class="uk-position-relative uk-visible-toggle uk-light sliderEntreprise" tabindex="-1">
+
+            <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
+                </li>
+                <li class="boxEntreprise">
+                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
+                </li>
+            </ul>
+
+            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href="#" uk-slidenav-previous uk-slider-item="previous"></a>
+            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href="#" uk-slidenav-next uk-slider-item="next"></a>
+
         </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
-            <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
-            <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
-        </div>
-        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
-            <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
-        </div>
+
+        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
+
     </div>
+
 </div>
 
 <section id="services" class="services ls section_padding_top_150 section_padding_bottom_120 columns_margin_0">
@@ -181,7 +207,6 @@
                     <strong style="color: #bb2d2d;">ça marche ?</strong>
                 </h2>
                 <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France</p>
-                <hr class="divider_30_3 zebra_bg">
             </div>
         </div>
         <div class="row topmargin_30">
@@ -300,7 +325,7 @@
                             <h2 class="section_header">Get a quote
                             </h2>
                             <p class="small-text grey">Delivers the best</p>
-                            <hr class="divider_30_3 zebra_bg">
+                            
 
                             <form class="" method="post" action="./">
                                 <div class="formContainer">
@@ -390,7 +415,6 @@
                     <strong style="color: #bb2d2d;">Blog</strong>
                 </h2>
                 <p class="small-text" style="color: black;">anywhere, anytime towing</p>
-                <hr class="divider_30_3 zebra_bg">
             </div>
         </div>
         <div class="row topmargin_20">

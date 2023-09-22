@@ -22,7 +22,12 @@
 	<link rel="stylesheet" href="{{ asset('font-assets/css/fonts.css') }}">
 	<link rel="stylesheet" href="{{ asset('font-assets/css/main.css') }}" id="color-switcher-link">
 	<script src="{{ asset('font-assets/js/vendor/modernizr-2.6.2.min.js') }}"></script>
+	<!-- UIkit CSS -->
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/css/uikit.min.css" />
 
+	<!-- UIkit JS -->
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/uikit@3.16.26/dist/js/uikit-icons.min.js"></script>
 	<!--[if lt IE 9]>
 		<script src="{{ asset('font-assets/js/vendor/html5shiv.min.js') }}"></script>
 		<script src="{{ asset('font-assets/js/vendor/respond.min.js') }}"></script>
