@@ -30,7 +30,9 @@
 	<![endif]-->
 
 </head>
-
+<style>
+       
+    </style>
 <body>
 	<!--[if lt IE 9]>
 		<div class="bg-danger text-center">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/" class="highlight">upgrade your browser</a> to improve your experience.</div>
@@ -75,28 +77,18 @@
 	<div id="canvas">
 		<div id="box_wrapper">
 
-            <section class="intro_section page_mainslider ds">
-				<img src="{{ asset('font-assets/images/epave/hm-abt@2x.png') }}" alt="" class="imgSection">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<div class="slide_description_wrapper">
-								<div class="slide_description">
-									<div class="intro-layer to_animate" data-animation="fadeInUp">
-										<p class="big grey" style="color: black !important;">
-											Une épave qui vous encombre ?
-											<br>
-											<strong class="">Laissez-nous vous libérer de l'espace !</strong>
-										</p>
-									</div>
-								</div>
-								<!-- eof .slide_description -->
-							</div>
-							<!-- eof .slide_description_wrapper -->
-						</div>
-						<!-- eof .col-* -->
-					</div>
-					<!-- eof .row -->
+            <section class="intro_section page_mainslider ds" style="position: relative !important;">
+				<img src="{{ asset('font-assets/images/epave/epvauste-e1646670017330.jpeg') }}" alt="" class="imgSection">
+				<div class="col-lg-5 col-md-5 col-sm-12 slideHeader1 animate-slide " style=" height:100%; position: absolute;">
+				   <h1> epavite gratuit  <br> en île de france</h1>
+				   <h1></h1>
+				   <div class="header-p mt-5">
+					<p>Faites appel à nos service pour un </p>
+					<p>enlèvement d'épave ou véhicule hors </p>
+					<p>d'usage en Île-de-France.</p> 
+					<p>Service 100% Gratuit </p>
+					</p>
+				   </div>
 				</div>
 				<!-- eof .container -->
 			</section>
@@ -156,6 +148,17 @@
 	<script src="{{ asset('font-assets/js/main.js') }}"></script>
 	<script src="{{ asset('font-assets/js/vendor/jquery-jvectormap-2.0.3.min.js') }}"></script>
 	<script src="{{ asset('font-assets/js/vendor/jquery-jvectormap-world-merc.js') }}"></script>
+	<script>
+document.addEventListener('DOMContentLoaded', function() {
+    // Sélectionnez votre élément headerSlide
+    var headerSlide = document.querySelector('.slide-in');
+
+    // Ajoutez la classe 'active' pour déclencher l'animation
+    headerSlide.classList.add('active');
+});
+</script>
+
+
 
 
 </body>

@@ -4,43 +4,37 @@
         <li class="active"> 
             
             <a href="#box_wrapper">
-            <div class="line"></div>
-                <p>Acceuil</p></a>
+            Acceuil</a>
         </li>
 
         <li>
             
             <a href="#about">
-            <div class="line"></div>
-                <p>Nos engagements</p></a>
+            Nos engagements</a>
         </li>
 
         <li>
             
             <a href="#features">
-            <div class="line"></div>
-               <p> Chiffres clés</p></a>
+            Chiffres clés</a>
         </li>
 
         <li>
             
             <a href="#services">
-            <div class="line"></div>
-                <p>Comment ça marche ?</p></a>
+            Comment ça marche ?</a>
         </li>
 
         <li>
             
             <a href="#blog">
-            <div class="line"></div>
-                <p>Blog</p></a>
+            Blog</a>
         </li>
 
         <li>
             
             <a href="#faq">
-            <div class="line"></div>
-                <p>FAQ</p></a>
+            FAQ</a>
         </li>
 
     </ul>

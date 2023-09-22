@@ -14,7 +14,7 @@
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
                             <div class="teaser_icon main_bg_color round size_small" style="display: flex; justify-content:center; align-items:center !important;">
-                                <img src="{{ asset('font-assets/images/epave/deadline@2x.png') }}" alt="" style="width: 100%;"/>
+                                <img src="{{ asset('font-assets/images/epave/clock_2_e@2x.png') }}" alt="" style="width: 60%;"/>
                             </div>
                         </div>
                         <div class="media-body media-middle">
@@ -30,7 +30,7 @@
                 <div class="with_padding_small">
                     <div class="teaser">
                         <h3 class="text-uppercase big margin_0">
-                           
+                           0(800)
                             <strong> 07 77 45 93 89</strong>
                         </h3>
                     </div>
@@ -44,7 +44,7 @@
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
                             <div class="teaser_icon main_bg_color with_shadow round size_small" style="display: flex; justify-content:center; align-items:center !important;">
-                                <img src="{{ asset('font-assets/images/epave/clock_2_e@2x.png') }}" alt="" style="width: 60%;"/>
+                                <img src="{{ asset('font-assets/images/epave/phone-call_3.png') }}" alt=""/>
                             </div>
                         </div>
                         <div class="media-body media-middle">
@@ -62,8 +62,26 @@
 <section id="about" class=" aboutSection ls section_padding_top_150 section_padding_bottom_150 table_section table_section_md columns_padding_25 columns_margin_bottom_30">
     <div class="container">
         <div class="row">
-            <div class="col-lg-7 col-md-6 text-center text-md-right">
-                <img src="{{ asset('font-assets/images/epave/untitled-design-2022-05-18t094.png') }}" alt="" />
+            <div class="col-lg-7 col-md-6">
+                <div class="card cardFormEvent">
+                    <div class="card-header">
+                        <h3> demande un évènement d'épave</h3>
+                    </div>
+                    <div class="card-body">
+                        <div class="form-group mb-2">
+                            <input type="text" name="" id="" placeholder="Nom et Prénom">
+                        </div>
+                        <div class="form-group mb-2">
+                            <input type="tel" name="" id="" placeholder="Téléphone">
+                        </div>
+                        <div class="form-group mb-2">
+                            <textarea name="" id="" cols="30" rows="3" placeholder="Votre vihécule, lieux, état,..."></textarea>
+                        </div>
+                        <div class="form-group btnBox mb-2">
+                            <button class="btnForm"> Envoyer la demande</button>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="col-lg-5 col-md-6">
                 <h2 class="section_header numbered-header">Nos
@@ -137,6 +155,23 @@
         </div>
     </div>
 </section>
+
+<div class="mt-5 partenaireContainer">
+    <div class="row">
+        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
+            <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
+            <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
+            <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
+        </div>
+        <div class="col-lg-3 col-md-3 col-sm-6 mb-5 boxEntreprise">
+            <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
+        </div>
+    </div>
+</div>
 
 <section id="services" class="services ls section_padding_top_150 section_padding_bottom_120 columns_margin_0">
     <div class="container">
@@ -506,9 +541,8 @@
         </div>
         
         <div class="row">
-            <div class="col-lg-7 text-center">
-                <div id="offices-map"></div>
-                <p class="bold">- Number of our offices</p>
+            <div class="col-lg-7">
+                <img src="{{ asset('font-assets/images/epave/Groupe 1.png') }}" alt="" style="width: 80% !important; margint-top:50px !important;">
             </div>
             <div class="col-md-4">
                 <div class="panel-group topmargin_60 bottommargin_0" id="accordion1">
