@@ -14635,7 +14635,7 @@ tr.item-editable .media-left img {
 	animation-delay: 500ms;
 	animation-timing-function: ease-in-out;
 	animation-iteration-count: 2;
-	animation-fill-mode: forwards; 
+	animation-fill-mode: forwards;
 }
 
 .slideHeader1 h1 {
@@ -14649,7 +14649,7 @@ tr.item-editable .media-left img {
 .slideHeader1 p {
 	font-size: 20px;
 	font-weight: 500;
-	color: white;	
+	color: white;
 	margin-top: -5px;
 }
 .slideHeader1 .header-p{
@@ -14666,7 +14666,7 @@ tr.item-editable .media-left img {
 	100% {
 		left: 0; /* Le contenu glisse de gauche à droite */
 	}
-} 
+}
 @media(max-width:1200px){
 	.imgSection{
 		height: 550px ;

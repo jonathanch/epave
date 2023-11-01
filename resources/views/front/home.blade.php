@@ -19,8 +19,8 @@
                         </div>
                         <div class="media-body media-middle">
                             <h3 class="text-uppercase grey margin_0">
-                                Moins de
-                                <strong>30 min</strong> à arriver
+                                Enlèvement
+                                <strong>le jour même</strong>
                             </h3>
                         </div>
                     </div>
@@ -30,8 +30,8 @@
                 <div class="with_padding_small">
                     <div class="teaser">
                         <h3 class="text-uppercase big margin_0">
-                           0(800)
-                            <strong> 07 77 45 93 89</strong>
+
+                            <strong> 07 53 39 07 93</strong>
                         </h3>
                     </div>
                 </div>
@@ -44,7 +44,7 @@
                     <div class="teaser media small-teaser topmargin_0 inline-block">
                         <div class="media-left media-middle">
                             <div class="teaser_icon main_bg_color with_shadow round size_small" style="display: flex; justify-content:center; align-items:center !important;">
-                                <img src="{{ asset('font-assets/images/epave/phone-call_3.png') }}" alt=""/>
+                                <img src="{{ asset('font-assets/images/epave/phone-call_3.png') }}" alt="téléphone de l'entreprise"/>
                             </div>
                         </div>
                         <div class="media-body media-middle">
@@ -65,22 +65,27 @@
             <div class="col-lg-7 col-md-6">
                 <div class="card cardFormEvent">
                     <div class="card-header">
-                        <h3> demande un évènement d'épave</h3>
+                        <h3> Rappel en moins de 15 min</h3>
                     </div>
                     <div class="card-body">
+
+                        <form method="POST" action="{{ route('users.store') }}">
+                            @csrf
                         <div class="form-group mb-2">
-                            <input type="text" name="" id="" placeholder="Nom et Prénom">
+                            <input type="text" name="name" id="name" placeholder="Nom et Prénom">
                         </div>
                         <div class="form-group mb-2">
-                            <input type="tel" name="" id="" placeholder="Téléphone">
+                            <input type="tel" name="telephone" id="telephone" placeholder="Téléphone">
                         </div>
                         <div class="form-group mb-2">
-                            <textarea name="" id="" cols="30" rows="3" placeholder="Votre vihécule, lieux, état,..."></textarea>
+                            <textarea name="description" id="description" cols="30" rows="3" placeholder="Votre véhicule, lieux, état,..."></textarea>
                         </div>
                         <div class="form-group btnBox mb-2">
-                            <button class="btnForm"> Envoyer la demande</button>
+                            <button type="submit" class="btnForm"> Envoyer la demande</button>
                         </div>
+
                     </div>
+                </form>
                 </div>
             </div>
             <div class="col-lg-5 col-md-6">
@@ -95,7 +100,7 @@
                 <div class="inline-block topmargin_10">
                     <ul class="list1 checklist grey">
                         <li>Intervention
-                            <strong>rapide</strong> en moins de 30 minutes chrono.
+                            <strong>rapide</strong> le jour même.
                         </li>
                         <li>Intervention
                             <strong>d'un expert</strong> pour traiter votre épave en toute sécurité.
@@ -122,7 +127,7 @@
                 <div class="teaser_icon highlight">
                     <i class="towyicon-star"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="10" data-speed="2100">0</h3>
+                <h3 class="counter grey" data-from="0" data-to="6" data-speed="2100">0</h3>
                 <p class="lightfont">Années d'expèrience</p>
             </div>
         </div>
@@ -131,7 +136,7 @@
                 <div class="teaser_icon highlight">
                     <i class="towyicon-buildings"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="74" data-speed="2100">5</h3>
+                <h3 class="counter grey" data-from="0" data-to="11" data-speed="2100">5</h3>
                 <p class="lightfont">Partenaires</p>
             </div>
         </div>
@@ -140,7 +145,7 @@
                 <div class="teaser_icon highlight">
                     <i class="towyicon-truck"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="3000" data-speed="2100">0</h3>
+                <h3 class="counter grey" data-from="0" data-to="597" data-speed="2100">0</h3>
                 <p class="lightfont">Interventions</p>
             </div>
         </div>
@@ -149,7 +154,7 @@
                 <div class="teaser_icon highlight ">
                     <i class="towyicon-group"></i>
                 </div>
-                <h3 class="counter grey" data-from="0" data-to="15" data-speed="2100">0</h3>
+                <h3 class="counter grey" data-from="0" data-to="6" data-speed="2100">0</h3>
                 <p class="lightfont">Collaborateurs</p>
             </div>
         </div>
@@ -163,28 +168,28 @@
 
             <ul class="uk-slider-items uk-child-width-1-2 uk-child-width-1-3@s uk-child-width-1-4@m">
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="notre partenaire 1" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="notre partenaire 2" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="notre partenaire 3" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="notre partenaire 4" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/ministere-transition-logo.png') }}" class="ent1" alt="notre partenaire 5" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/cnpa-1-logo-png-transparent.png') }}" class="ent2" alt="notre partenaire 6" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/1572864055_centre-vhu.png') }}" class="ent3" alt="notre partenaire 7" />
                 </li>
                 <li class="boxEntreprise">
-                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="" />
+                    <img src="{{ asset('font-assets/images/epave/Région_Île-de-France_(logo).svg.png') }}" class="ent4" alt="notre partenaire 8" />
                 </li>
             </ul>
 
@@ -214,8 +219,8 @@
                 <div class="with_padding">
                     <div class="teaser text-center" style="position: relative;">
                         <div class="contactImgBox">
-                            <img src="{{ asset('font-assets/images/epave/smartphone.png') }}" alt="" id="smartphone" />
-                            <img src="{{ asset('font-assets/images/epave/car_26.png') }}" alt="" id="car_26" />
+                            <img src="{{ asset('font-assets/images/epave/smartphone.png') }}" alt="smartphone" id="smartphone" />
+                            <img src="{{ asset('font-assets/images/epave/car_26.png') }}" alt="voiture" id="car_26" />
                         </div>
                         <h4 class="regular">
                             <a href="service-single.html">Vous nous contactez</a>
@@ -228,11 +233,11 @@
             <div class="col-md-4">
                 <div class="with_padding">
                     <div class="teaser text-center">
-                        <img src="{{ asset('font-assets/images/epave/car_23_fi.png') }}" alt="" id="car_23_fi"/>
+                        <img src="{{ asset('font-assets/images/epave/car_23_fi.png') }}" alt="Enlèvement d'épave de voiture en Île-de-France" id="car_23_fi"/>
                         <h4 class="regular">
                             <a href="service-single.html">La prise en charge</a>
                         </h4>
-                        <p>Nous pouvons intervenir en moins de 30 min ou selon vos disponibilités.</p>
+                        <p>Nous pouvons intervenir le jour même ou selon vos disponibilités.</p>
 
                     </div>
                 </div>
@@ -299,17 +304,16 @@
                 <div class="container-left-half horizontal-center">
                     <div class="row">
                         <div class="col-sm-12 text-center">
-                            <h2 class="section_header">Join our
-                                <strong> team</strong>
+                            <h2 class="section_header">Rejoindre notre
+                                <strong> équipe</strong>
                             </h2>
-                            <p class="small-text">Fast and Courteous specialists</p>
+                            <p class="small-text">Des experts de l'épave</p>
                             <hr class="divider_30_3 zebra_bg">
                             <p class="topmargin_50 bottommargin_90 grey p-quote">
-                                Doner hamburger elit magna fatback salami. Picanha ad reprehenderit anim pancetta alcatra ham tempor meatloaf shankle do sunt drumstick. Venison bresaola laboris, jowl do labore pastrami magna voluptate fatback sed cow. In beef ribs shankle hamburger
-                                beef, ea turkey cupim venison Jowl pig ut biltong sint do capicola ham.
+                                Nous sommes constamment à la recherche de talents passionnés et dévoués pour rejoindre notre équipe. Si vous êtes motivé(e), désireux(se) de contribuer à notre mission et prêt(e) à relever de nouveaux défis, il vous suffit de postuler.
                             </p>
                             <div class=" btnBox d-flex justify-content-center">
-                                <a href="#" class="theme_button">Apply today</a>
+                                <a href="#" class="theme_button">Postuler</a>
                             </div>
                         </div>
                     </div>
@@ -322,10 +326,10 @@
                     <div class="row">
                         <div class="col-md-12 text-center">
 
-                            <h2 class="section_header">Get a quote
+                            <h2 class="section_header">Obtenir un rdv
                             </h2>
-                            <p class="small-text grey">Delivers the best</p>
-                            
+                            <p class="small-text grey">Service 100% gratuit</p>
+
 
                             <form class="" method="post" action="./">
                                 <div class="formContainer">
@@ -333,34 +337,34 @@
                                         <div class="row columns_margin_bottom_15" style="width: 80%;  margin-top:10px;">
                                             <div class="col-sm-6" style="padding:0px 0px ;">
                                                 <div class="form-group">
-                                                    <label for="full-name" class="sr-only">Full Name
+                                                    <label for="full-name" class="sr-only">Nom et Prénom
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="full-name" id="full-name" class="form-control" placeholder="Full Name">
+                                                    <input type="text" aria-required="true" size="30" value="" name="full-name" id="full-name" class="form-control" placeholder="Nom">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px ;">
                                                 <div class="form-group">
-                                                    <label for="phone-number" class="sr-only">Phone Number
+                                                    <label for="phone-number" class="sr-only">Téléphone
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="phone-number" id="phone-number" class="form-control" placeholder="Phone Number">
+                                                    <input type="text" aria-required="true" size="30" value="" name="phone-number" id="phone-number" class="form-control" placeholder="Téléphone">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px ; margin-top:-30px;">
                                                 <div class="form-group">
-                                                    <label for="start-address" class="sr-only">Tow From
+                                                    <label for="start-address" class="sr-only">Votre rue
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="start-address" id="start-address" class="form-control" placeholder="Tow From">
+                                                    <input type="text" aria-required="true" size="30" value="" name="start-address" id="start-address" class="form-control" placeholder="Votre rue">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px ; margin-top:-30px;">
                                                 <div class="form-group">
-                                                    <label for="end-address" class="sr-only">Tow To
+                                                    <label for="end-address" class="sr-only">Votre ville
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="end-address" id="end-address" class="form-control" placeholder="Tow To">
+                                                    <input type="text" aria-required="true" size="30" value="" name="end-address" id="end-address" class="form-control" placeholder="Votre ville">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px; margin-top:-30px;">
@@ -392,7 +396,7 @@
                                 </div>
                                 <div class="btnBox">
                                     <p class="form-submit">
-                                        <button type="submit" id="submit" name="submit" class="theme_button color1">Submit now</button>
+                                        <button type="submit" id="submit" name="submit" class="theme_button color1">Envoyez la demande</button>
                                     </p>
                                 </div>
                             </form>
@@ -411,10 +415,10 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12 text-center">
-                <h2 class="section_header numbered-header">Our
+                <h2 class="section_header numbered-header">Notre
                     <strong style="color: #bb2d2d;">Blog</strong>
                 </h2>
-                <p class="small-text" style="color: black;">anywhere, anytime towing</p>
+                <p class="small-text" style="color: black;">Des articles utiles</p>
             </div>
         </div>
         <div class="row topmargin_20">
@@ -433,16 +437,13 @@
                         <header class="entry-header">
 
                             <h3 class="entry-title">
-                                <a href="blog-single-right.html" rel="bookmark">What You Should Know About Towing Capacity</a>
+                                <a href="blog-single-right.html" rel="bookmark">L'interêt d'un épaviste</a>
                             </h3>
 
                         </header>
                         <!-- .entry-header -->
 
-                        <p>Your automobile is bound to run into
-                            issues, whether it be the brakes
-                            or the engine, cars somply are
-                            not meant..     
+                        <p>Une panne ou un accident ? Cela peut être une expérience stressante. Les véhicules sont sujettes à des problèmes qui peuvent vous laisser en rade sur le bord de la route.
                         </p>
 
                     </div>
@@ -466,16 +467,13 @@
                         <header class="entry-header">
 
                             <h3 class="entry-title">
-                                <a href="blog-single-right.html" rel="bookmark">Towing Service - How to Choose a Quality Service</a>
+                                <a href="blog-single-right.html" rel="bookmark">A quoi sert un certificat de destruction ?</a>
                             </h3>
 
                         </header>
                         <!-- .entry-header -->
 
-                        <p>Your automobile is bound to run into
-                            issues, whether it be the brakes
-                            or the engine, cars somply are
-                            not meant..     
+                        <p>Un certificat de destruction atteste de la destruction complète d'un véhicule hors d'usage, confirmant ainsi qu'il ne peut plus être utilisé sur la route.
                         </p>
 
                     </div>
@@ -499,13 +497,13 @@
                         <header class="entry-header">
 
                             <h3 class="entry-title">
-                                <a href="blog-single-right.html" rel="bookmark">4 Reasons You May Need Heavy Towing For Your Car</a>
+                                <a href="blog-single-right.html" rel="bookmark">Privilégier un épaviste agréé</a>
                             </h3>
 
                         </header>
                         <!-- .entry-header -->
 
-                        <p>Your automobile is bound to run into issues, whether it be the brakes or the engine, cars simply are not meant...</p>
+                        <p>Une Inscription en préfecture, des installations conformes, un respect des normes environnementales et des inspections régulières.</p>
 
                     </div>
                     <!-- .item-content.entry-content -->
@@ -523,29 +521,10 @@
             <div class="col-sm-12">
                 <div class="owl-carousel" data-responsive-lg="1" data-responsive-md="1" data-responsive-sm="1" data-nav="true" data-margin="0">
                     <blockquote>
-                        <img src="{{ asset('font-assets/images/epave/n_60_F_224869519_aRaeLneqALfPN.png') }}" alt="" /> Meatloaf laborum velit kielbasa. Drumstick sirloin lorem chicken swine biltong in short ribs duis bresaola. Veniam meatloaf cow incididunt in bacon kevin in pork belly ball tip duis ipsum. Ribeye et aliquip strip steak dolore in anim. Officia
-                        tongue bacon mollit esse. Ipsum deserunt salami jowl short ribs veniam.
+                        <img src="{{ asset('font-assets/images/epave/n_60_F_224869519_aRaeLneqALfPN.png') }}" alt="" /> "Enlèvement d'épave, un geste pour demain."
                         <div class="item-meta">
-                            <h5 class="highlight">Curtis Harrington</h5>
-                            <p>Manager</p>
-                        </div>
-                    </blockquote>
-
-                    <blockquote>
-                        <img src="{{ asset('font-assets/images/epave/n_60_F_224869519_aRaeLneqALfPN.png') }}" alt="" /> Meatloaf laborum velit kielbasa. Drumstick sirloin lorem chicken swine biltong in short ribs duis bresaola. Veniam meatloaf cow incididunt in bacon kevin in pork belly ball tip duis ipsum. Ribeye et aliquip strip steak dolore in anim. Officia
-                        tongue bacon mollit esse. Ipsum deserunt salami jowl short ribs veniam.
-                        <div class="item-meta">
-                            <h5 class="highlight">Curtis Harrington</h5>
-                            <p>Manager</p>
-                        </div>
-                    </blockquote>
-
-                    <blockquote>
-                        <img src="{{ asset('font-assets/images/epave/n_60_F_224869519_aRaeLneqALfPN.png') }}" alt="" /> Meatloaf laborum velit kielbasa. Drumstick sirloin lorem chicken swine biltong in short ribs duis bresaola. Veniam meatloaf cow incididunt in bacon kevin in pork belly ball tip duis ipsum. Ribeye et aliquip strip steak dolore in anim. Officia
-                        tongue bacon mollit esse. Ipsum deserunt salami jowl short ribs veniam.
-                        <div class="item-meta ">
-                            <h5 class="highlight">Curtis Harrington</h5>
-                            <p>Manager</p>
+                            <h5 class="highlight">Thomas</h5>
+                            <p>Fondateur</p>
                         </div>
                     </blockquote>
 
@@ -558,18 +537,18 @@
 <section id="faq" class="faq ls section_padding_top_150 section_padding_bottom_130 columns_margin_bottom_30 table_section table_section_md">
     <div class="container">
         <div class="text-center">
-            <h2 class="section_header numbered-header">General
-                <strong style="color: #bb2d2d;">FAQ'S</strong>
+            <h2 class="section_header numbered-header">Nos zones
+                <strong style="color: #bb2d2d;">d'enlèvement</strong>
             </h2>
-            <p class="small-text" style="color: black;">Relocation of any vehicle type</p>
+            <p class="small-text" style="color: black;">Un service Français</p>
         </div>
-        
+
         <div class="row">
-            <div class="col-lg-7">
+              <div class="col-lg-7">
                 <img src="{{ asset('font-assets/images/epave/Groupe 1.png') }}" alt="" style="width: 80% !important; margint-top:50px !important;">
             </div>
             <div class="col-md-4">
-                <div class="panel-group topmargin_60 bottommargin_0" id="accordion1">
+                {{--<div class="panel-group topmargin_60 bottommargin_0" id="accordion1">
                     <div class="panel panel-default">
                         <div class="panel-heading">
                             <h4 class="panel-title">
@@ -628,7 +607,7 @@
                         </div>
                     </div>
 
-                </div>
+                </div> --}}
 
             </div>
         </div>
@@ -642,8 +621,8 @@
                 <div class="with_icon_bg with_padding_small">
                     <i class="fa fa-envelope background-icon"></i>
                     <h3 class="logoText1 text-uppercase grey margin_0">
-                        register for
-                        <strong>our newsletter</strong>
+                        S'incrire
+                        <strong>à notre newsletter</strong>
                     </h3>
                 </div>
             </div>
@@ -651,8 +630,8 @@
                 <div class="with_padding_small">
                     <div class="content-justify vertical-center middleBox">
                         <h3 class="logoText1 text-uppercase highlight margin_0">
-                            enter
-                            <strong>e-mail address</strong>
+                            Entrer
+                            <strong>votre adresse mail</strong>
                         </h3>
                         <a href="#" class="theme_button color1 margin_0">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
@@ -664,8 +643,8 @@
                 <div class="with_icon_bg with_padding_small">
                     <i class="towyicon-newspaper background-icon"></i>
                     <h3 class="logoText1 text-uppercase grey margin_0">
-                        get latest
-                        <strong>company news</strong>
+                        Obtenir
+                        <strong>les dernières actualités</strong>
                     </h3>
                 </div>
             </div>

@@ -8,13 +8,13 @@
                     <div class="widget widget_pages">
                         <h3 class="widget-title">
                             <img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="">
-                            <strong>Epave Direct</strong> <br>  <p>TOWING Services</p>
+                            <strong>Epave Direct</strong> <br>  <p>ÉPAVISTE AGRÉÉ</p>
                         </h3>
                         <div class="row columns_padding_0 columns_margin_0">
                             <div class="col-xs-12">
                                 <ul class="greylinks">
                                     <li class="p-intro">
-                                    Shank duis pancetta kevin ullamco tempor short loin pig lorem officia ut ham hock incididunt irure drumstick sage ball tip tri-tip.
+                                      Epave Direct s'engage à maintenir confidentielles les données personnelles fournies par l'utilisateur du site et à ne pas les transférer à d'autres.
                                     </li>
                                 </ul>
                             </div>
@@ -35,23 +35,27 @@
                 <div class="topmargin_15 columns_margin_0">
                     <div class="widget widget_pages">
 
-                        <h3 class="widget-title">Useful
-                            <strong>Links</strong>
+                        <h3 class="widget-title">Liens
+                            <strong>utiles</strong>
                         </h3>
                         <div class="row columns_padding_0 columns_margin_0">
                             <div class="col-xs-6">
                                 <ul class="greylinks">
                                     <li>
-                                        <a href="about.html">About</a>
+                                        <a href="#box_wrapper">
+                                            Acceuil</a>
                                     </li>
                                     <li>
-                                        <a href="services.html">Services</a>
+                                        <a href="#about">
+                                            Nos engagements</a>
                                     </li>
                                     <li>
-                                        <a href="gallery-tile.html">Gallery</a>
+                                        <a href="#features">
+                                            Chiffres clés</a>
                                     </li>
                                     <li>
-                                        <a href="404.html">404</a>
+                                        <a href="#services">
+                                            Déroulement</a>
                                     </li>
                                 </ul>
                             </div>
@@ -61,14 +65,14 @@
                                         <a href="faq.html">FAQ</a>
                                     </li>
                                     <li>
-                                        <a href="shortcodes_typography.html">Typography</a>
+                                        <a href="#blog">
+                                            Blog</a>
                                     </li>
                                     <li>
-                                        <a href="blog-right.html">Blog</a>
+                                        <a href="#faq">
+                                            FAQ</a>
                                     </li>
-                                    <li>
-                                        <a href="contact.html">Contacts</a>
-                                    </li>
+
                                 </ul>
                             </div>
                         </div>
@@ -79,15 +83,15 @@
 
             <div class="col-md-3 col-sm-6 to_animate" data-animation="fadeInUp">
                 <div class="widget widget_text topmargin_15">
-                    <h3 class="widget-title">Get in
-                        <strong>Touch</strong>
+                    <h3 class="widget-title">A
+                        <strong>Propos de Nous</strong>
                     </h3>
                     <div class="media small-teaser">
                         <div class="media-left">
                             <i class="fa fa-map-marker highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            2551 Alfred Drive Brooklyn, NY
+                            Ajouter adresse
                         </div>
                     </div>
                     <div class="media small-teaser">
@@ -95,7 +99,7 @@
                             <i class="fa fa-envelope highlight fontsize_18"></i>
                         </div>
                         <div class="media-body greylinks">
-                            <a href="mailto:your@mail.com">support@towy.com</a>
+                            <a href="mailto:your@mail.com">support@epave-direct.com</a>
                         </div>
                     </div>
                     <div class="media small-teaser">
@@ -103,7 +107,7 @@
                             <i class="fa fa-phone highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            718-250-4467
+                            07 77 45 93 89
                         </div>
                     </div>
                     <div class="media small-teaser">
@@ -111,7 +115,7 @@
                             <i class="fa fa-clock-o highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            24 hours a day, 7 days a week
+                            24H/24, 7J/7
                         </div>
                     </div>
                 </div>
@@ -120,10 +124,10 @@
             <div class="col-md-3 col-sm-12 to_animate" data-animation="fadeInUp">
                 <div class="topmargin_15">
                     <div class="widget widget_twitter">
-                        <h3 class="widget-title">Latest
-                            <strong>Tweets</strong>
+                        <h3 class="widget-title">Dernières
+                            <strong>Actus</strong>
                         </h3>
-                        <div class="twitter"></div>
+                       
                     </div>
                 </div>
             </div>

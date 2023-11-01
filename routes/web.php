@@ -1,6 +1,7 @@
 <?php
 
 use App\Http\Controllers\FrontController;
+use App\Http\Controllers\UserController;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -20,3 +21,6 @@ use Illuminate\Support\Facades\Route;
 
 Route::get('/',[FrontController::class,'index'])->name('front.home');
 
+Route::post('/users',[UserController::class,'store'])->name('users.store');
+
+Route::get('/blog/{slug}', [BlogController::class, 'show'])->name('blog.show');
