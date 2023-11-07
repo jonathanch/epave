@@ -7,12 +7,12 @@
 <!--<![endif]-->
 
 <head>
-	<title>Enlèvement Épave gratuit - Epave Direct  </title>
+	<title>Enlèvement Épave gratuit - Recyclemavoiture  </title>
 	<meta charset="utf-8">
 	<!--[if IE]>
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<![endif]-->
-    <meta name="description" content="Épave Direct est un service rapide et professionnelle pour l'enlèvement d'épaves en Île-de-France. Libérer votre espace et vous débarrasser de votre véhicule hors d'usage." />
+    <meta name="description" content="Recyclemavoiture est un service rapide et professionnel pour l'enlèvement d'épaves en Île-de-France et Haut-de-France. Libérer votre espace et vous débarrasser de votre véhicule hors d'usage." />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
@@ -85,11 +85,11 @@
             <section class="intro_section page_mainslider ds" style="position: relative !important;">
 				<img src="{{ asset('font-assets/images/epave/epvauste-e1646670017330.jpeg') }}" alt="epave" class="imgSection">
 				<div class="col-lg-5 col-md-5 col-sm-12 slideHeader1 animate-slide " style=" height:100%; position: absolute;">
-				   <h1> epaviste gratuit  <br> en Île-de-France</h1>
+				   <h1> epaviste gratuit  <br> en Île-de-France et Haut-de-France</h1>
 				   <div class="header-p mt-5">
 					<p>Nous intervenons pour un enlèvement </p>
 					<p> d'épave ou véhicule non fonctionnel</p>
-					<p>en Île-de-France.</p><br>
+					<p>en Île-de-France et Haut-de-France.</p><br>
 					<p>C'est 100% Gratuit ! </p>
 					</p>
 				   </div>
@@ -107,7 +107,7 @@
 								<a href="./" class="logo">
 									<img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="Logo de l'entreprise Epave Direct">
 									<span class="logo_text">
-										<span class="highlight">Epave Direct</span>
+										<span class="highlight">Recyclemavoiture</span>
 									</span>
 								</a>
 
@@ -136,7 +136,7 @@
 				<div class="container">
 					<div class="row">
 						<div class="col-sm-12 text-center">
-							<p class="lightfont">24/7 Epave Direct - Service d'enlèvement d'épave
+							<p class="lightfont">24/7 Recyclemavoiture - Service d'enlèvement d'épave
 								<i class="fa fa-heart highlight" aria-hidden="true"></i> Tous droits réservés 2023</p>
 						</div>
 					</div>

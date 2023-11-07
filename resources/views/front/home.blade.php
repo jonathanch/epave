@@ -233,7 +233,7 @@
             <div class="col-md-4">
                 <div class="with_padding">
                     <div class="teaser text-center">
-                        <img src="{{ asset('font-assets/images/epave/car_23_fi.png') }}" alt="Enlèvement d'épave de voiture en Île-de-France" id="car_23_fi"/>
+                        <img src="{{ asset('font-assets/images/epave/car_23_fi.png') }}" alt="Enlèvement d'épave de voiture en Île-de-France et Haut-de-France" id="car_23_fi"/>
                         <h4 class="regular">
                             <a href="service-single.html">La prise en charge</a>
                         </h4>
