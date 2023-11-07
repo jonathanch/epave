@@ -92,7 +92,7 @@
                 <h2 class="section_header numbered-header">Nos
                     <strong  style="color: #bb2d2d;">engagements</strong>
                 </h2>
-                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France</p>
+                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France et Haut-De-France</p>
                 <hr class="divider_30_3 zebra_bg">
                 <p>
                     Direct Epave comprend l'urgence de votre situation et nous nous efforçons à rendre un service efficace, professionnel et respectueux de l'environnement, le tout sans frais pour le client.
@@ -211,7 +211,7 @@
                 <h2 class="section_header numbered-header">Comment
                     <strong style="color: #bb2d2d;">ça marche ?</strong>
                 </h2>
-                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France</p>
+                <p class="small-text">ÉPAVISTE AGRÉÉ en Ile-De-France et Haut-De-France</p>
             </div>
         </div>
         <div class="row topmargin_30">
