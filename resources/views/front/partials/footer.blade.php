@@ -14,7 +14,7 @@
                             <div class="col-xs-12">
                                 <ul class="greylinks">
                                     <li class="p-intro">
-                                      Epave Direct s'engage à maintenir confidentielles les données personnelles fournies par l'utilisateur du site et à ne pas les transférer à d'autres.
+                                      Recyclemavoiture s'engage à maintenir confidentielles les données personnelles fournies par l'utilisateur du site et à ne pas les transférer à d'autres.
                                     </li>
                                 </ul>
                             </div>
@@ -88,18 +88,18 @@
                     </h3>
                     <div class="media small-teaser">
                         <div class="media-left">
-                            <i class="fa fa-map-marker highlight fontsize_18"></i>
+                        <!--     <i class="fa fa-map-marker highlight fontsize_18"></i> -->
                         </div>
-                        <div class="media-body">
+                      <!--  <div class="media-body">
                             Ajouter adresse
-                        </div>
+                        </div> -->
                     </div>
                     <div class="media small-teaser">
                         <div class="media-left">
-                            <i class="fa fa-envelope highlight fontsize_18"></i>
+                          <!--   <i class="fa fa-envelope highlight fontsize_18"></i> -->
                         </div>
-                        <div class="media-body greylinks">
-                            <a href="mailto:your@mail.com">support@epave-direct.com</a>
+                         <div class="media-body greylinks">
+                           <!--  <a href="mailto:your@mail.com">support@epave-direct.com</a> -->
                         </div>
                     </div>
                     <div class="media small-teaser">
@@ -107,7 +107,7 @@
                             <i class="fa fa-phone highlight fontsize_18"></i>
                         </div>
                         <div class="media-body">
-                            07 77 45 93 89
+                            07 53 39 07 93
                         </div>
                     </div>
                     <div class="media small-teaser">
@@ -127,7 +127,7 @@
                         <h3 class="widget-title">Dernières
                             <strong>Actus</strong>
                         </h3>
-                       
+
                     </div>
                 </div>
             </div>

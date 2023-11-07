@@ -105,7 +105,7 @@
 							<div class="logo_wrapper">
 
 								<a href="./" class="logo">
-									<img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="Logo de l'entreprise Epave Direct">
+									<img src="{{asset('font-assets/images/epave/tlchargement_74_fs@2x.png')}}" alt="Logo de l'entreprise Recyclemavoiture">
 									<span class="logo_text">
 										<span class="highlight">Recyclemavoiture</span>
 									</span>

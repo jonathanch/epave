@@ -49,7 +49,7 @@
                         </div>
                         <div class="media-body media-middle">
                             <h3 class="text-uppercase grey margin_0">
-                                <strong>24h/24 7j/7</strong> Epave-Direct
+                                <strong>24h/24 7j/7</strong> Recyclemavoiture
                             </h3>
                         </div>
                     </div>
@@ -225,7 +225,7 @@
                         <h4 class="regular">
                             <a href="service-single.html">Vous nous contactez</a>
                         </h4>
-                        <p>Vous nous appeler au 07 77 45 93 89 ou via le formulaire ci-dessous.</p>
+                        <p>Vous nous appeler au 07 53 39 07 93 ou via le formulaire ci-dessous.</p>
 
                     </div>
                 </div>
@@ -331,7 +331,8 @@
                             <p class="small-text grey">Service 100% gratuit</p>
 
 
-                            <form class="" method="post" action="./">
+                            <form method="POST" action="{{ route('users.store') }}">
+                                @csrf
                                 <div class="formContainer">
                                     <div class="formBox">
                                         <div class="row columns_margin_bottom_15" style="width: 80%;  margin-top:10px;">
@@ -340,7 +341,7 @@
                                                     <label for="full-name" class="sr-only">Nom et Prénom
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="full-name" id="full-name" class="form-control" placeholder="Nom">
+                                                    <input type="text" aria-required="true" size="30" value="" name="name" id="name" class="form-control" placeholder="Nom">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px ;">
@@ -348,7 +349,7 @@
                                                     <label for="phone-number" class="sr-only">Téléphone
                                                         <span class="required">*</span>
                                                     </label>
-                                                    <input type="text" aria-required="true" size="30" value="" name="phone-number" id="phone-number" class="form-control" placeholder="Téléphone">
+                                                    <input type="text" aria-required="true" size="30" value="" name="telephone" id="telephone" class="form-control" placeholder="Téléphone">
                                                 </div>
                                             </div>
                                             <div class="col-sm-6" style="padding:0px 0px ; margin-top:-30px;">
@@ -633,7 +634,7 @@
                             Entrer
                             <strong>votre adresse mail</strong>
                         </h3>
-                        <a href="#" class="theme_button color1 margin_0">
+                        <a href="#about" class="theme_button color1 margin_0">
                             <i class="fa fa-envelope" aria-hidden="true"></i>
                         </a>
                     </div>
